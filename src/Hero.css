@@ -1,0 +1,205 @@
+.mob-nav,
+.mob-hero-text {
+  display: none;
+}
+
+.hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.fix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 10;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 40px;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+}
+
+.nav-left p,
+.nav-right p {
+  margin-right: 22px;
+}
+
+.logo {
+  height: 38px;
+  left: 40px;
+  position: absolute;
+  top: 195px;
+  width: 100px;
+}
+
+.hero-text {
+  width: calc(33.33333% - 80px);
+  padding-top: 70px;
+  padding-bottom: 100px;
+  margin-right: auto;
+  margin-left: 16.66667%;
+}
+
+.hero-text h4 {
+  margin-bottom: 15px;
+  font-size: 14px;
+  line-height: 1.7;
+  font-family: "Suisse Medium", sans-serif;
+}
+
+.hero-text h1 {
+  font-size: 30px;
+  line-height: 1.33;
+  margin: 0 0 30px;
+  font-family: Suisse Regular, sans-serif;
+  font-weight: 400;
+}
+
+.hero-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;
+  margin: 0 0 30px;
+}
+
+.hero-text button {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-transform: initial;
+  font-size: 14px;
+  transition: all 0.5s;
+}
+
+.hero-text button:hover {
+  color: white;
+  background-color: #333;
+}
+
+.btn-hero {
+  margin-right: 30px;
+}
+
+@media only screen and (min-width: 1025px) {
+  .hero {
+    background-image: url("https://www.aesop.com/u1nb1km7t5q7/3JruvdkK023WgnONfInKkk/1197b51f6b729714eb05b981b47e4010/Aesop_Gifting_2021_Mothers_Day_Web_Homepage_Primary_Full_Bleed_1_Desktop_2880x1044px.jpg");
+  }
+
+  .hero-text {
+    width: calc(33.33333% - 80px);
+    padding-top: 70px;
+    padding-bottom: 100px;
+    margin-right: auto;
+    margin-left: 16.66667%;
+  }
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 640px) {
+  .hero {
+    background-image: url("https://www.aesop.com/u1nb1km7t5q7/60ncJAJh39r3UetgtJd9Sj/c297822e2b318d5c13454423dc92a348/Aesop_Gifting_2021_Mothers_Day_Web_Homepage_Primary_Full_Bleed_1_Tablet_1536x1600px.jpg");
+  }
+
+  .hero-text {
+    padding-bottom: 250px !important;
+    font-family: Suisse Regular, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+  .nav,
+  .hero-text,
+  .logo {
+    display: none;
+  }
+
+  .mob-nav {
+    display: block;
+  }
+
+  .hero {
+    background-image: url("https://www.aesop.com/u1nb1km7t5q7/AoOo6nsU6NR4fsDSCxAgh/3c0bc1f42613cd0a404aa9f159334501/Aesop_Gifting_2021_Mothers_Day_Web_Homepage_Primary_Full_Bleed_1_Mobile_640x640px.jpg");
+    height: 425px;
+    width: 425px;
+  }
+
+  .mob-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 70px;
+  }
+
+  .mob-nav .nav-left img {
+    height: 22px;
+  }
+
+  .mob-hero-text {
+    display: block;
+    padding: 40px 20px;
+    font-family: Suisse Regular, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: rgb(246 245 232);
+  }
+
+  .mob-hero-text h4 {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 1.7;
+    font-family: "Suisse Medium", sans-serif;
+  }
+
+  .mob-hero-text h1 {
+    font-size: 30px;
+    line-height: 1.33;
+    margin: 0 0 30px;
+    font-family: Suisse Regular, sans-serif;
+    font-weight: 400;
+  }
+
+  .mob-hero-text p {
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 400;
+    margin: 0 0 30px;
+  }
+
+  .mob-hero-text button {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-transform: initial;
+    font-size: 14px;
+    transition: all 0.5s;
+  }
+
+  .mob-hero-text button:hover {
+    color: white;
+    background-color: #333;
+  }
+
+  .btn-hero {
+    margin-right: 30px;
+  }
+}

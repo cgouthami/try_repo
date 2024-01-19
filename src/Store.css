@@ -1,0 +1,95 @@
+.store {
+  padding: 90px 0 50px;
+  display: flex;
+  background-color: #fffef2;
+}
+
+.product-text {
+  max-width: 33%;
+  padding-left: 80px;
+}
+
+.product-text h2 {
+  font-family: "Zapf Humanist", serif;
+  margin: 0 0 30px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.33;
+}
+
+.product-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+}
+
+.product-text button {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 95%;
+  max-width: 300px;
+  text-transform: initial;
+  font-size: 14px;
+  transition: all 0.5s;
+}
+
+.product-text button:hover {
+  color: white;
+  background-color: #333;
+}
+
+.btn-store {
+  margin-right: 70px;
+  max-width: 300px;
+}
+
+.carousel-store {
+  background-color: #fffef2;
+  padding: 0;
+  width: 64%;
+}
+
+.carousel-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.rec-swipable {
+  display: flex;
+  align-items: flex-end;
+}
+
+.store-card img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 1025px) {
+  .store {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product-text {
+    max-width: 67%;
+    padding-left: 0px;
+    margin: 0 auto 40px;
+  }
+
+  .carousel-store {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+  .product-text {
+    max-width: 100%;
+    padding-left: 0px;
+    margin: 0 20px 30px;
+  }
+}

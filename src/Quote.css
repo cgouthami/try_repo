@@ -1,0 +1,37 @@
+.quote {
+  text-align: center;
+  padding: 150px 40px;
+}
+
+.quote h3 {
+  margin: 0 0 20px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.33;
+  font-family: Zapf Humanist, serif;
+}
+
+.quote p {
+  font-size: 14px;
+  line-height: 2;
+  font-weight: 600;
+}
+
+.box {
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 639px) {
+  .quote {
+    padding: 80px 16px;
+  }
+
+  .quote h3 {
+    font-size: 25px;
+  }
+
+  .box {
+    width: 95%;
+  }
+}

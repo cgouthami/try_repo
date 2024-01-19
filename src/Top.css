@@ -1,0 +1,27 @@
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  border-bottom: 1px solid black;
+  transition: border-bottom 1s;
+}
+
+.text:hover {
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+
+.text-msg {
+  font-size: 14px;
+  margin: 14px 0;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 1025px) {
+  .text {
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,137 @@
+.footer {
+  padding: 30px 20px;
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #252525;
+  color: #fffef2;
+}
+
+.mail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40%;
+  margin-top: 30px;
+  padding: 0 2%;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 28px;
+}
+
+input {
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-left: 2px;
+  outline-width: 0;
+  border: none;
+}
+
+::placeholder {
+  color: white;
+  font-size: 16px;
+}
+
+.check {
+  font-size: 13px !important;
+}
+
+.mail-text {
+  display: flex;
+  align-items: flex-start;
+}
+
+.mail-text svg {
+  width: 16px !important;
+}
+
+.Mui-checked,
+.MuiIconButton-root {
+  color: white !important;
+}
+
+.MuiIconButton-root {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.footer-info {
+  width: 20%;
+  margin-top: 30px;
+  padding: 0 2%;
+}
+
+.footer-info h3 {
+  font-size: 15px;
+}
+
+hr {
+  margin: 20px 0;
+  border-bottom: none;
+  border-top: 1px solid white;
+}
+
+.footer-info p {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.footer-info p svg {
+  font-size: 14px !important;
+}
+
+.long-text {
+  font-size: 14px;
+  line-height: 2;
+  cursor: initial !important;
+}
+
+.change {
+  width: 40%;
+}
+
+.line {
+  display: flex;
+  text-decoration: underline;
+}
+
+.end {
+  padding: 27px 0 27px 40px;
+  border-top: 5px solid #fffef2;
+  background-color: #252525;
+  color: #fffef2;
+}
+
+@media only screen and (max-width: 1025px) {
+  .mail {
+    width: 100%;
+  }
+
+  .footer-info {
+    width: 33%;
+  }
+
+  .media {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+  .footer-info {
+    width: 50%;
+  }
+
+  .loc p {
+    width: max-content;
+  }
+}
